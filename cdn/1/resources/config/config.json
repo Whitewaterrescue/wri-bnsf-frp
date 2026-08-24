@@ -1,0 +1,1437 @@
+{
+ "exbVersion": "1.20.0",
+ "mainSizeMode": "LARGE",
+ "mainLocale": "en",
+ "theme": "themes/dark/",
+ "utilities": {},
+ "customTheme": {},
+ "customThemeOptions": {},
+ "forBuilderAttributes": {},
+ "template": "chronology",
+ "useAutoSortInFixedLayout": false,
+ "dataSources": {
+  "dataSource_1": {
+   "id": "dataSource_1",
+   "type": "WEB_MAP",
+   "sourceLabel": "BNSF FRP Map",
+   "itemId": "b39b3da54e4b4cc78530ef03ef1f21ab",
+   "portalUrl": "https://wrienviro.maps.arcgis.com",
+   "isHidden": false,
+   "childDataSourceJsons": {
+    "FRP_sites": {
+     "id": "dataSource_1-FRP_sites",
+     "type": "FEATURE_LAYER",
+     "sourceLabel": "Response Strategies",
+     "portalUrl": "https://wrienviro.maps.arcgis.com",
+     "itemId": "665e3cbacf494e31988848d1a525b88e",
+     "layerId": "1",
+     "url": "https://services6.arcgis.com/Ji79lWGR5B33LhY7/arcgis/rest/services/BNSF_FRPs_2025/FeatureServer/1"
+    }
+   }
+  }
+ },
+ "pages": {
+  "page_1": {
+   "id": "page_1",
+   "label": "Sites & COP",
+   "type": "NORMAL",
+   "mode": "FIT_WINDOW",
+   "layout": {
+    "LARGE": "layout_p1",
+    "MEDIUM": "layout_p1",
+    "SMALL": "layout_p1"
+   },
+   "isDefault": true,
+   "isVisible": true,
+   "bodyBackgroundColor": "",
+   "header": true
+  }
+ },
+ "pageStructure": [
+  {
+   "page_1": []
+  }
+ ],
+ "layouts": {
+  "layout_p1": {
+   "type": "FIXED",
+   "order": [
+    "0",
+    "1",
+    "2",
+    "7",
+    "20",
+    "21"
+   ],
+   "content": {
+    "0": {
+     "type": "WIDGET",
+     "widgetId": "widget_11",
+     "bbox": {
+      "left": "0px",
+      "right": "0px",
+      "top": "52px",
+      "bottom": "0px",
+      "width": "380px",
+      "height": "100%"
+     },
+     "setting": {
+      "autoProps": {
+       "left": false,
+       "right": true,
+       "top": false,
+       "bottom": false,
+       "width": "CUSTOM",
+       "height": "STRETCH"
+      },
+      "vCenter": false,
+      "hCenter": false
+     },
+     "isPending": false
+    },
+    "1": {
+     "type": "WIDGET",
+     "widgetId": "widget_1",
+     "bbox": {
+      "left": "388px",
+      "right": "0px",
+      "top": "0px",
+      "bottom": "0px",
+      "width": "100%",
+      "height": "55%"
+     },
+     "setting": {
+      "autoProps": {
+       "left": false,
+       "right": false,
+       "top": false,
+       "bottom": true,
+       "width": "STRETCH",
+       "height": "CUSTOM"
+      },
+      "vCenter": false,
+      "hCenter": false
+     },
+     "isPending": false
+    },
+    "2": {
+     "type": "WIDGET",
+     "widgetId": "widget_13",
+     "bbox": {
+      "left": "388px",
+      "right": "0px",
+      "top": "56%",
+      "bottom": "0px",
+      "width": "100%",
+      "height": "100%"
+     },
+     "setting": {
+      "autoProps": {
+       "left": false,
+       "right": false,
+       "top": false,
+       "bottom": false,
+       "width": "STRETCH",
+       "height": "STRETCH"
+      },
+      "vCenter": false,
+      "hCenter": false
+     },
+     "isPending": false
+    },
+    "7": {
+     "type": "WIDGET",
+     "widgetId": "widget_15",
+     "bbox": {
+      "left": "0px",
+      "right": "10px",
+      "top": "10px",
+      "bottom": "0px",
+      "width": "300px",
+      "height": "48px"
+     },
+     "setting": {
+      "autoProps": {
+       "left": true,
+       "right": false,
+       "top": false,
+       "bottom": true,
+       "width": "CUSTOM",
+       "height": "CUSTOM"
+      },
+      "vCenter": false,
+      "hCenter": false
+     },
+     "isPending": false
+    },
+    "20": {
+     "type": "WIDGET",
+     "widgetId": "widget_20",
+     "bbox": {
+      "left": "0px",
+      "right": "0px",
+      "top": "0px",
+      "bottom": "0px",
+      "width": "380px",
+      "height": "48px"
+     },
+     "setting": {
+      "autoProps": {
+       "left": false,
+       "right": true,
+       "top": true,
+       "bottom": false,
+       "width": "CUSTOM",
+       "height": "CUSTOM"
+      },
+      "vCenter": false,
+      "hCenter": false
+     },
+     "isPending": false
+    },
+    "21": {
+     "type": "WIDGET",
+     "widgetId": "widget_21",
+     "bbox": {
+      "left": "396px",
+      "right": "0px",
+      "top": "0px",
+      "bottom": "45.8%",
+      "width": "860px",
+      "height": "52px"
+     },
+     "setting": {
+      "autoProps": {
+       "left": false,
+       "right": false,
+       "top": true,
+       "bottom": false,
+       "width": "CUSTOM",
+       "height": "CUSTOM"
+      },
+      "vCenter": false,
+      "hCenter": false
+     },
+     "isPending": false
+    }
+   }
+  },
+  "layout_card2": {
+   "type": "FIXED",
+   "label": "Default",
+   "order": [
+    "0"
+   ],
+   "content": {
+    "0": {
+     "type": "WIDGET",
+     "widgetId": "widget_12",
+     "bbox": {
+      "left": "8px",
+      "right": "8px",
+      "top": "0%",
+      "bottom": "0%",
+      "width": "100%",
+      "height": "100%"
+     },
+     "setting": {
+      "lockParent": true,
+      "vCenter": true,
+      "hCenter": false,
+      "autoProps": {
+       "left": false,
+       "right": false,
+       "top": false,
+       "bottom": false,
+       "width": "STRETCH",
+       "height": "STRETCH"
+      }
+     },
+     "isPending": false
+    }
+   }
+  },
+  "layout_ctrl": {
+   "type": "FIXED",
+   "order": [
+    "0",
+    "1"
+   ],
+   "content": {
+    "0": {
+     "type": "WIDGET",
+     "widgetId": "widget_14",
+     "bbox": {},
+     "setting": {}
+    },
+    "1": {
+     "type": "WIDGET",
+     "widgetId": "widget_2",
+     "bbox": {},
+     "setting": {}
+    }
+   },
+   "label": "Controller layout"
+  },
+  "layout_hdr": {
+   "type": "FIXED",
+   "order": [
+    "0",
+    "1",
+    "2"
+   ],
+   "content": {
+    "0": {
+     "type": "WIDGET",
+     "widgetId": "widget_18",
+     "bbox": {
+      "left": "801px",
+      "right": "36px",
+      "top": "2px",
+      "bottom": "0px",
+      "width": "187px",
+      "height": "64px"
+     },
+     "setting": {
+      "autoProps": {
+       "left": true,
+       "right": false,
+       "top": false,
+       "bottom": false,
+       "width": "CUSTOM",
+       "height": "STRETCH"
+      },
+      "vCenter": false,
+      "hCenter": false
+     },
+     "isPending": false
+    },
+    "1": {
+     "type": "WIDGET",
+     "widgetId": "widget_19",
+     "bbox": {
+      "left": "15px",
+      "right": "385px",
+      "top": "12px",
+      "bottom": "9px",
+      "width": "624px",
+      "height": "68.3%"
+     },
+     "setting": {
+      "autoProps": {
+       "left": false,
+       "right": true,
+       "top": false,
+       "bottom": false,
+       "width": "CUSTOM",
+       "height": "STRETCH"
+      },
+      "vCenter": false,
+      "hCenter": false
+     },
+     "isPending": false
+    },
+    "2": {
+     "type": "WIDGET",
+     "widgetId": "widget_3",
+     "bbox": {
+      "left": "0px",
+      "right": "12px",
+      "top": "12px",
+      "bottom": "12px",
+      "width": "48px",
+      "height": "40px"
+     },
+     "setting": {
+      "autoProps": {
+       "left": true,
+       "right": false,
+       "top": false,
+       "bottom": false,
+       "width": "CUSTOM",
+       "height": "STRETCH"
+      },
+      "vCenter": true,
+      "hCenter": false
+     },
+     "isPending": false
+    }
+   }
+  }
+ },
+ "sections": {},
+ "views": {},
+ "dialogs": {},
+ "messageConfigs": {
+  "messageConfig_2": {
+   "id": "messageConfig_2",
+   "widgetId": "widget_11",
+   "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+   "actions": [
+    {
+     "actionId": "widget_1-zoomToFeature-icp2",
+     "widgetId": "widget_1",
+     "messageWidgetId": "widget_11",
+     "actionName": "zoomToFeature",
+     "description": null,
+     "config": {
+      "useDataSource": null,
+      "useDataSources": [],
+      "goToInitialMapExtentWhenSelectionCleared": false,
+      "useAnyTriggerData": true
+     },
+     "version": "1.20.0"
+    }
+   ]
+  }
+ },
+ "widgets": {
+  "widget_1": {
+   "id": "widget_1",
+   "uri": "widgets/arcgis/arcgis-map/",
+   "version": "1.20.0",
+   "label": "BNSF FRP Map",
+   "config": {
+    "initialMapDataSourceID": "dataSource_1",
+    "toolConfig": {
+     "canZoom": true,
+     "canHome": true,
+     "canSearch": true,
+     "canNavigation": true,
+     "canLocate": true
+    },
+    "isUseCustomMapState": false
+   },
+   "useDataSources": [
+    {
+     "dataSourceId": "dataSource_1",
+     "mainDataSourceId": "dataSource_1"
+    }
+   ],
+   "useDataSourcesEnabled": true
+  },
+  "widget_2": {
+   "id": "widget_2",
+   "uri": "widgets/arcgis/legend/",
+   "version": "1.20.0",
+   "label": "Legend",
+   "config": {},
+   "useMapWidgetIds": [
+    "widget_1"
+   ]
+  },
+  "widget_3": {
+   "id": "widget_3",
+   "uri": "widgets/common/menu/",
+   "version": "1.20.0",
+   "label": "Menu",
+   "config": {
+    "type": "drawer",
+    "menuStyle": "default",
+    "vertical": true,
+    "standard": {}
+   }
+  },
+  "widget_11": {
+   "id": "widget_11",
+   "uri": "widgets/common/list/",
+   "version": "1.20.0",
+   "label": "Site List",
+   "config": {
+    "maxItems": 300,
+    "space": 6,
+    "verticalSpace": 6,
+    "horizontalSpace": 10,
+    "itemsPerPage": 25,
+    "isItemStyleConfirm": true,
+    "isInitialed": true,
+    "pageStyle": "SCROLL",
+    "itemStyle": "STYLE6",
+    "hoverType": "HOVER0",
+    "selectedStyle": "STYLE0",
+    "differentOddEven": false,
+    "scrollBarOpen": true,
+    "direction": "VERTICAL",
+    "alignType": "CENTER",
+    "scrollStep": 2,
+    "cardConfigs": {
+     "DEFAULT": {
+      "cardSize": {
+       "LARGE": {
+        "width": 360,
+        "height": 68
+       }
+      },
+      "enable": true,
+      "backgroundStyle": {
+       "border": {
+        "type": "solid",
+        "color": "var(--sys-color-divider-secondary)",
+        "width": "1px"
+       }
+      },
+      "listLayout": "Custom"
+     },
+     "HOVER": {
+      "cardSize": {
+       "LARGE": {
+        "width": 360,
+        "height": 68
+       }
+      },
+      "enable": false,
+      "backgroundStyle": {
+       "border": {
+        "type": "solid",
+        "color": "var(--sys-color-divider-secondary)",
+        "width": "1px"
+       }
+      },
+      "listLayout": "Auto"
+     },
+     "SELECTED": {
+      "cardSize": {
+       "LARGE": {
+        "width": 360,
+        "height": 68
+       }
+      },
+      "backgroundStyle": {
+       "border": {
+        "type": "solid",
+        "color": "var(--sys-color-action-selected)",
+        "width": "1px"
+       }
+      },
+      "selectionMode": "SINGLE",
+      "listLayout": "Auto"
+     }
+    },
+    "style": {
+     "id": "default"
+    },
+    "isCheckEmptyTemplate": false,
+    "searchOpen": true,
+    "searchFields": [
+     "site_code",
+     "Site_Name",
+     "facility_name",
+     "watercourse_description"
+    ],
+    "searchExact": false,
+    "searchHint": "Search all FRP strategies",
+    "filters": null,
+    "sorts": [
+     {
+      "ruleOptionName": "Facility",
+      "rule": [
+       {
+        "jimuFieldName": "facility_name",
+        "order": "ASC"
+       },
+       {
+        "jimuFieldName": "site_code",
+        "order": "ASC"
+       }
+      ]
+     },
+     {
+      "ruleOptionName": "Site Name",
+      "rule": [
+       {
+        "jimuFieldName": "Site_Name",
+        "order": "ASC"
+       }
+      ]
+     }
+    ],
+    "sortOpen": false,
+    "isShowAutoRefresh": false,
+    "layoutType": "ROW",
+    "keepAspectRatio": false
+   },
+   "layouts": {
+    "DEFAULT": {
+     "LARGE": "layout_card2",
+     "MEDIUM": "layout_card2",
+     "SMALL": "layout_card2"
+    }
+   },
+   "useDataSources": [
+    {
+     "dataSourceId": "dataSource_1-FRP_sites",
+     "mainDataSourceId": "dataSource_1-FRP_sites",
+     "rootDataSourceId": "dataSource_1",
+     "fields": [
+      "site_code",
+      "Site_Name",
+      "Site_Type",
+      "facility_name",
+      "milepost",
+      "watercourse_description"
+     ]
+    }
+   ],
+   "useDataSourcesEnabled": true,
+   "enableDataAction": false
+  },
+  "widget_12": {
+   "id": "widget_12",
+   "uri": "widgets/common/text/",
+   "version": "1.20.0",
+   "label": "Site Card Text",
+   "config": {
+    "text": "<p><span style=\"font-size:15px;font-weight:bold;\"><exp data-uniqueid=\"c1c87f39176d\" data-dsid=\"dataSource_1-FRP_sites\" data-expression=\"%7B%22name%22%3A%22%7Bsite_code%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bsite_code%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-FRP_sites%22%2C%22jimuFieldName%22%3A%22site_code%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">{site_code}</exp></span><span style=\"font-size:15px;\"> &mdash; <exp data-uniqueid=\"0aa3c6ddb481\" data-dsid=\"dataSource_1-FRP_sites\" data-expression=\"%7B%22name%22%3A%22%7BSite_Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BSite_Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-FRP_sites%22%2C%22jimuFieldName%22%3A%22Site_Name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">{Site_Name}</exp></span></p><p><span style=\"font-size:12px;color: var(--sys-color-surface-paper-hint);\"><exp data-uniqueid=\"8177645c30eb\" data-dsid=\"dataSource_1-FRP_sites\" data-expression=\"%7B%22name%22%3A%22%7Bfacility_name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bfacility_name%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-FRP_sites%22%2C%22jimuFieldName%22%3A%22facility_name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">{facility_name}</exp> &bull; <exp data-uniqueid=\"644bd1a2a49e\" data-dsid=\"dataSource_1-FRP_sites\" data-expression=\"%7B%22name%22%3A%22%7BSite_Type%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BSite_Type%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-FRP_sites%22%2C%22jimuFieldName%22%3A%22Site_Type%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">{Site_Type}</exp></span></p>",
+    "placeholder": "",
+    "style": {
+     "verticalAlign": "center",
+     "wrap": true,
+     "overflow": "hidden",
+     "padding": "p-1"
+    }
+   },
+   "useDataSources": [
+    {
+     "dataSourceId": "dataSource_1-FRP_sites",
+     "mainDataSourceId": "dataSource_1-FRP_sites",
+     "rootDataSourceId": "dataSource_1",
+     "fields": [
+      "site_code",
+      "Site_Name",
+      "Site_Type",
+      "facility_name",
+      "milepost",
+      "watercourse_description"
+     ]
+    }
+   ],
+   "useDataSourcesEnabled": true
+  },
+  "widget_13": {
+   "id": "widget_13",
+   "uri": "widgets/arcgis/feature-info/",
+   "version": "1.20.0",
+   "label": "Site Detail",
+   "config": {
+    "useMapWidget": false,
+    "limitGraphics": true,
+    "maxGraphics": 10,
+    "noDataMessage": "Select a strategy from the list.",
+    "styleType": "usePopupDefined",
+    "style": {
+     "textColor": "",
+     "fontSizeType": "auto",
+     "fontSize": {
+      "distance": 14,
+      "unit": "px"
+     },
+     "backgroundColor": ""
+    },
+    "dsNavigator": false,
+    "featureNavigator": true,
+    "showCount": false,
+    "clearSelection": false,
+    "dsConfigs": [
+     {
+      "id": "dsConfig_0",
+      "label": "Response Strategies",
+      "useDataSourceId": "dataSource_1-FRP_sites-selection",
+      "contentConfig": {
+       "title": true,
+       "fields": true,
+       "media": true,
+       "attachments": true,
+       "lastEditInfo": false
+      }
+     }
+    ]
+   },
+   "useDataSources": [
+    {
+     "dataSourceId": "dataSource_1-FRP_sites-selection",
+     "mainDataSourceId": "dataSource_1-FRP_sites",
+     "rootDataSourceId": "dataSource_1",
+     "dataViewId": "selection"
+    }
+   ],
+   "useDataSourcesEnabled": true
+  },
+  "widget_14": {
+   "id": "widget_14",
+   "uri": "widgets/spill-trace-snake/",
+   "version": "1.0.0",
+   "label": "Spill Trajectory",
+   "config": {
+    "safetyFactor": 1.5,
+    "minStreamOrder": 4,
+    "maxHours": 24,
+    "maxDistanceKm": 300,
+    "listSyncSiteCodeField": "site_code",
+    "siteLayers": [
+     {
+      "url": "https://services6.arcgis.com/Ji79lWGR5B33LhY7/arcgis/rest/services/BNSF_FRPs_2025/FeatureServer/1",
+      "nameField": "Site_Name",
+      "bufferM": 500,
+      "where": "1=1",
+      "extraFields": [
+       "site_code",
+       "facility_name",
+       "watercourse_description",
+       "GlobalID"
+      ]
+     }
+    ],
+    "receptorLayers": [],
+    "equipment": {
+     "enabled": true,
+     "entrainmentMs": 0.35,
+     "anchorSpacingFt": 100,
+     "reservePct": 20
+    }
+   },
+   "useMapWidgetIds": [
+    "widget_1"
+   ]
+  },
+  "widget_15": {
+   "id": "widget_15",
+   "uri": "widgets/common/controller/",
+   "version": "1.20.0",
+   "label": "Map Tools",
+   "config": {
+    "behavior": {
+     "onlyOpenOne": false,
+     "openStarts": [],
+     "displayType": "SIDEBYSIDE",
+     "vertical": false,
+     "size": {
+      "widget_2": {
+       "width": 320,
+       "height": 440
+      },
+      "widget_14": {
+       "width": 430,
+       "height": 620
+      }
+     },
+     "arrangement": "floating"
+    },
+    "appearance": {
+     "space": 4,
+     "advanced": false,
+     "card": {
+      "showLabel": true,
+      "labelGrowth": 30,
+      "avatar": {
+       "type": "primary",
+       "size": "sm",
+       "shape": "rectangle",
+       "buttonSize": null,
+       "iconSize": null
+      }
+     }
+    }
+   },
+   "layouts": {
+    "controller": {
+     "LARGE": "layout_ctrl",
+     "MEDIUM": "layout_ctrl",
+     "SMALL": "layout_ctrl"
+    }
+   }
+  },
+  "widget_18": {
+   "id": "widget_18",
+   "uri": "widgets/common/image/",
+   "version": "1.20.0",
+   "label": "WRI Logo",
+   "config": {
+    "functionConfig": {
+     "altText": "WRI Environmental",
+     "toolTip": "",
+     "linkParam": {},
+     "scale": "Fit",
+     "imageParam": {
+      "url": "${appResourceUrl}/images/wri_logo.png",
+      "fileName": "wri_logo.png",
+      "type": "IMAGE"
+     },
+     "imageFillMode": "FIT",
+     "imageDisplayQualityMode": "ORIGINAL"
+    },
+    "styleConfig": {}
+   }
+  },
+  "widget_19": {
+   "id": "widget_19",
+   "uri": "widgets/common/text/",
+   "version": "1.20.0",
+   "label": "App Title",
+   "config": {
+    "text": "<p style=\"margin: 0px;\"><strong style=\"color: rgb(255, 255, 255); font-size: 22px;\">BNSF Facility Response Plans</strong></p>",
+    "placeholder": "",
+    "style": {
+     "verticalAlign": "center",
+     "wrap": false,
+     "overflow": "hidden",
+     "padding": "p-0"
+    }
+   }
+  },
+  "widget_20": {
+   "id": "widget_20",
+   "uri": "widgets/common/filter/",
+   "version": "1.20.0",
+   "label": "Facility Filter",
+   "icon": "",
+   "config": {
+    "logicalOperator": "OR",
+    "resetAll": false,
+    "turnOffAll": false,
+    "arrangeType": "INLINE",
+    "triggerType": "TOGGLE",
+    "omitInternalStyle": true,
+    "wrap": false,
+    "filterItems": [
+     {
+      "type": "SINGLE",
+      "name": "Facility",
+      "useDataSources": [
+       {
+        "dataSourceId": "dataSource_1-FRP_sites",
+        "mainDataSourceId": "dataSource_1-FRP_sites",
+        "rootDataSourceId": "dataSource_1",
+        "fields": [
+         "facility_name"
+        ]
+       }
+      ],
+      "sqlExprObj": {
+       "logicalOperator": "AND",
+       "parts": [
+        {
+         "type": "SINGLE",
+         "jimuFieldName": "facility_name",
+         "operator": "STRING_OPERATOR_IS",
+         "valueOptions": {
+          "isValid": true,
+          "sourceType": "UNIQUE",
+          "inputEditor": "SIMPLE_SELECT",
+          "value": []
+         },
+         "displayType": "USE_ASK_FOR_VALUE",
+         "askForValueOptions": {
+          "label": "Facility",
+          "hint": "",
+          "display": "INLINE",
+          "sortType": "LABEL",
+          "sortOrder": "ASC",
+          "isEmptyOptionHidden": false
+         },
+         "displayLabel": "Facility",
+         "caseSensitive": false
+        }
+       ],
+       "sql": "facility_name = ''",
+       "displaySQL": "(Facility)"
+      },
+      "autoApplyWhenWidgetOpen": true,
+      "collapseFilterExprs": false
+     }
+    ]
+   },
+   "useDataSources": [
+    {
+     "dataSourceId": "dataSource_1-FRP_sites",
+     "mainDataSourceId": "dataSource_1-FRP_sites",
+     "rootDataSourceId": "dataSource_1",
+     "fields": [
+      "facility_name"
+     ]
+    }
+   ],
+   "useDataSourcesEnabled": true
+  },
+  "widget_21": {
+   "id": "widget_21",
+   "uri": "widgets/arcgis/bookmark/",
+   "version": "1.20.0",
+   "label": "Facilities",
+   "icon": "",
+   "config": {
+    "templateType": "GALLERY",
+    "isTemplateConfirm": true,
+    "isInitialed": true,
+    "bookmarks": [
+     {
+      "id": 1,
+      "name": "ALK",
+      "title": "ALK",
+      "type": "2d",
+      "imgParam": {},
+      "imagePosition": "FILL",
+      "extent": {
+       "spatialReference": {
+        "wkid": 102100
+       },
+       "xmin": -12090315.8579176,
+       "ymin": 5746695.50359752,
+       "xmax": -12071549.2285414,
+       "ymax": 5757397.73462093
+      },
+      "graphics": [],
+      "showFlag": true,
+      "mapDataSourceId": null,
+      "viewpoint": {
+       "rotation": 0,
+       "targetGeometry": {
+        "spatialReference": {
+         "wkid": 102100
+        },
+        "xmin": -12090315.8579176,
+        "ymin": 5746695.50359752,
+        "xmax": -12071549.2285414,
+        "ymax": 5757397.73462093
+       }
+      },
+      "description": "Alkali Creek"
+     },
+     {
+      "id": 2,
+      "name": "ALN",
+      "title": "ALN",
+      "type": "2d",
+      "imgParam": {},
+      "imagePosition": "FILL",
+      "extent": {
+       "spatialReference": {
+        "wkid": 102100
+       },
+       "xmin": -10838292.6040748,
+       "ymin": 3891448.1655038,
+       "xmax": -10832804.3305398,
+       "ymax": 3893880.08738158
+      },
+      "graphics": [],
+      "showFlag": true,
+      "mapDataSourceId": null,
+      "viewpoint": {
+       "rotation": 0,
+       "targetGeometry": {
+        "spatialReference": {
+         "wkid": 102100
+        },
+        "xmin": -10838292.6040748,
+        "ymin": 3891448.1655038,
+        "xmax": -10832804.3305398,
+        "ymax": 3893880.08738158
+       }
+      },
+      "description": "Alliance"
+     },
+     {
+      "id": 3,
+      "name": "ARG",
+      "title": "ARG",
+      "type": "2d",
+      "imgParam": {},
+      "imagePosition": "FILL",
+      "extent": {
+       "spatialReference": {
+        "wkid": 102100
+       },
+       "xmin": -10541746.0060048,
+       "ymin": 4730342.42019868,
+       "xmax": -10511720.7448556,
+       "ymax": 4743523.6955948
+      },
+      "graphics": [],
+      "showFlag": true,
+      "mapDataSourceId": null,
+      "viewpoint": {
+       "rotation": 0,
+       "targetGeometry": {
+        "spatialReference": {
+         "wkid": 102100
+        },
+        "xmin": -10541746.0060048,
+        "ymin": 4730342.42019868,
+        "xmax": -10511720.7448556,
+        "ymax": 4743523.6955948
+       }
+      },
+      "description": "Argentine"
+     },
+     {
+      "id": 4,
+      "name": "BAR",
+      "title": "BAR",
+      "type": "2d",
+      "imgParam": {},
+      "imagePosition": "FILL",
+      "extent": {
+       "spatialReference": {
+        "wkid": 102100
+       },
+       "xmin": -13035242.9230649,
+       "ymin": 4148582.16290726,
+       "xmax": -13021893.6010484,
+       "ymax": 4151303.46902723
+      },
+      "graphics": [],
+      "showFlag": true,
+      "mapDataSourceId": null,
+      "viewpoint": {
+       "rotation": 0,
+       "targetGeometry": {
+        "spatialReference": {
+         "wkid": 102100
+        },
+        "xmin": -13035242.9230649,
+        "ymin": 4148582.16290726,
+        "xmax": -13021893.6010484,
+        "ymax": 4151303.46902723
+       }
+      },
+      "description": "Barstow"
+     },
+     {
+      "id": 5,
+      "name": "BEL",
+      "title": "BEL",
+      "type": "2d",
+      "imgParam": {},
+      "imagePosition": "FILL",
+      "extent": {
+       "spatialReference": {
+        "wkid": 102100
+       },
+       "xmin": -11886832.0385599,
+       "ymin": 4113475.79544626,
+       "xmax": -11884719.5285832,
+       "ymax": 4117725.47227286
+      },
+      "graphics": [],
+      "showFlag": true,
+      "mapDataSourceId": null,
+      "viewpoint": {
+       "rotation": 0,
+       "targetGeometry": {
+        "spatialReference": {
+         "wkid": 102100
+        },
+        "xmin": -11886832.0385599,
+        "ymin": 4113475.79544626,
+        "xmax": -11884719.5285832,
+        "ymax": 4117725.47227286
+       }
+      },
+      "description": "Belen"
+     },
+     {
+      "id": 6,
+      "name": "COM",
+      "title": "COM",
+      "type": "2d",
+      "imgParam": {},
+      "imagePosition": "FILL",
+      "extent": {
+       "spatialReference": {
+        "wkid": 102100
+       },
+       "xmin": -13159757.1687616,
+       "ymin": 3988710.4302026,
+       "xmax": -13150429.708628,
+       "ymax": 4035701.17773037
+      },
+      "graphics": [],
+      "showFlag": true,
+      "mapDataSourceId": null,
+      "viewpoint": {
+       "rotation": 0,
+       "targetGeometry": {
+        "spatialReference": {
+         "wkid": 102100
+        },
+        "xmin": -13159757.1687616,
+        "ymin": 3988710.4302026,
+        "xmax": -13150429.708628,
+        "ymax": 4035701.17773037
+       }
+      },
+      "description": "Commerce"
+     },
+     {
+      "id": 7,
+      "name": "COR",
+      "title": "COR",
+      "type": "2d",
+      "imgParam": {},
+      "imagePosition": "FILL",
+      "extent": {
+       "spatialReference": {
+        "wkid": 102100
+       },
+       "xmin": -9782428.81435911,
+       "ymin": 5124755.05620201,
+       "xmax": -9752408.9349507,
+       "ymax": 5141246.52342425
+      },
+      "graphics": [],
+      "showFlag": true,
+      "mapDataSourceId": null,
+      "viewpoint": {
+       "rotation": 0,
+       "targetGeometry": {
+        "spatialReference": {
+         "wkid": 102100
+        },
+        "xmin": -9782428.81435911,
+        "ymin": 5124755.05620201,
+        "xmax": -9752408.9349507,
+        "ymax": 5141246.52342425
+       }
+      },
+      "description": "Corwith"
+     },
+     {
+      "id": 8,
+      "name": "GAL",
+      "title": "GAL",
+      "type": "2d",
+      "imgParam": {},
+      "imagePosition": "FILL",
+      "extent": {
+       "spatialReference": {
+        "wkid": 102100
+       },
+       "xmin": -10067568.8813024,
+       "ymin": 4996725.64389701,
+       "xmax": -10060199.0857339,
+       "ymax": 5002798.17105971
+      },
+      "graphics": [],
+      "showFlag": true,
+      "mapDataSourceId": null,
+      "viewpoint": {
+       "rotation": 0,
+       "targetGeometry": {
+        "spatialReference": {
+         "wkid": 102100
+        },
+        "xmin": -10067568.8813024,
+        "ymin": 4996725.64389701,
+        "xmax": -10060199.0857339,
+        "ymax": 5002798.17105971
+       }
+      },
+      "description": "Galesburg"
+     },
+     {
+      "id": 9,
+      "name": "GLB",
+      "title": "GLB",
+      "type": "2d",
+      "imgParam": {},
+      "imagePosition": "FILL",
+      "extent": {
+       "spatialReference": {
+        "wkid": 102100
+       },
+       "xmin": -11689820.8019389,
+       "ymin": 4828252.84586295,
+       "xmax": -11680068.5800243,
+       "ymax": 4848043.65023606
+      },
+      "graphics": [],
+      "showFlag": true,
+      "mapDataSourceId": null,
+      "viewpoint": {
+       "rotation": 0,
+       "targetGeometry": {
+        "spatialReference": {
+         "wkid": 102100
+        },
+        "xmin": -11689820.8019389,
+        "ymin": 4828252.84586295,
+        "xmax": -11680068.5800243,
+        "ymax": 4848043.65023606
+       }
+      },
+      "description": "Globeville"
+     },
+     {
+      "id": 10,
+      "name": "HAV",
+      "title": "HAV",
+      "type": "2d",
+      "imgParam": {},
+      "imagePosition": "FILL",
+      "extent": {
+       "spatialReference": {
+        "wkid": 102100
+       },
+       "xmin": -12218673.1029054,
+       "ymin": 6197747.25227648,
+       "xmax": -12169706.1079342,
+       "ymax": 6209291.88892132
+      },
+      "graphics": [],
+      "showFlag": true,
+      "mapDataSourceId": null,
+      "viewpoint": {
+       "rotation": 0,
+       "targetGeometry": {
+        "spatialReference": {
+         "wkid": 102100
+        },
+        "xmin": -12218673.1029054,
+        "ymin": 6197747.25227648,
+        "xmax": -12169706.1079342,
+        "ymax": 6209291.88892132
+       }
+      },
+      "description": "Havre"
+     },
+     {
+      "id": 11,
+      "name": "HOB",
+      "title": "HOB",
+      "type": "2d",
+      "imgParam": {},
+      "imagePosition": "FILL",
+      "extent": {
+       "spatialReference": {
+        "wkid": 102100
+       },
+       "xmin": -10774792.5991118,
+       "ymin": 4983190.28284943,
+       "xmax": -10765727.1293998,
+       "ymax": 4985295.07154809
+      },
+      "graphics": [],
+      "showFlag": true,
+      "mapDataSourceId": null,
+      "viewpoint": {
+       "rotation": 0,
+       "targetGeometry": {
+        "spatialReference": {
+         "wkid": 102100
+        },
+        "xmin": -10774792.5991118,
+        "ymin": 4983190.28284943,
+        "xmax": -10765727.1293998,
+        "ymax": 4985295.07154809
+       }
+      },
+      "description": "Hobson"
+     },
+     {
+      "id": 12,
+      "name": "MAN",
+      "title": "MAN",
+      "type": "2d",
+      "imgParam": {},
+      "imagePosition": "FILL",
+      "extent": {
+       "spatialReference": {
+        "wkid": 102100
+       },
+       "xmin": -11233761.0228808,
+       "ymin": 5901684.19868184,
+       "xmax": -11224150.8669004,
+       "ymax": 5916483.5132078
+      },
+      "graphics": [],
+      "showFlag": true,
+      "mapDataSourceId": null,
+      "viewpoint": {
+       "rotation": 0,
+       "targetGeometry": {
+        "spatialReference": {
+         "wkid": 102100
+        },
+        "xmin": -11233761.0228808,
+        "ymin": 5901684.19868184,
+        "xmax": -11224150.8669004,
+        "ymax": 5916483.5132078
+       }
+      },
+      "description": "Mandan"
+     },
+     {
+      "id": 13,
+      "name": "MEM",
+      "title": "MEM",
+      "type": "2d",
+      "imgParam": {},
+      "imagePosition": "FILL",
+      "extent": {
+       "spatialReference": {
+        "wkid": 102100
+       },
+       "xmin": -10008011.0612966,
+       "ymin": 4165449.56253148,
+       "xmax": -10005998.6275421,
+       "ymax": 4176019.6838406
+      },
+      "graphics": [],
+      "showFlag": true,
+      "mapDataSourceId": null,
+      "viewpoint": {
+       "rotation": 0,
+       "targetGeometry": {
+        "spatialReference": {
+         "wkid": 102100
+        },
+        "xmin": -10008011.0612966,
+        "ymin": 4165449.56253148,
+        "xmax": -10005998.6275421,
+        "ymax": 4176019.6838406
+       }
+      },
+      "description": "Memphis"
+     },
+     {
+      "id": 14,
+      "name": "NTN",
+      "title": "NTN",
+      "type": "2d",
+      "imgParam": {},
+      "imagePosition": "FILL",
+      "extent": {
+       "spatialReference": {
+        "wkid": 102100
+       },
+       "xmin": -10384785.5623915,
+       "ymin": 5623513.0243476,
+       "xmax": -10382511.3129869,
+       "ymax": 5630781.36566159
+      },
+      "graphics": [],
+      "showFlag": true,
+      "mapDataSourceId": null,
+      "viewpoint": {
+       "rotation": 0,
+       "targetGeometry": {
+        "spatialReference": {
+         "wkid": 102100
+        },
+        "xmin": -10384785.5623915,
+        "ymin": 5623513.0243476,
+        "xmax": -10382511.3129869,
+        "ymax": 5630781.36566159
+       }
+      },
+      "description": "Northtown"
+     },
+     {
+      "id": 15,
+      "name": "RIC",
+      "title": "RIC",
+      "type": "2d",
+      "imgParam": {},
+      "imagePosition": "FILL",
+      "extent": {
+       "spatialReference": {
+        "wkid": 102100
+       },
+       "xmin": -13623830.8713577,
+       "ymin": 4569317.47734596,
+       "xmax": -13622611.3663361,
+       "ymax": 4571205.67025654
+      },
+      "graphics": [],
+      "showFlag": true,
+      "mapDataSourceId": null,
+      "viewpoint": {
+       "rotation": 0,
+       "targetGeometry": {
+        "spatialReference": {
+         "wkid": 102100
+        },
+        "xmin": -13623830.8713577,
+        "ymin": 4569317.47734596,
+        "xmax": -13622611.3663361,
+        "ymax": 4571205.67025654
+       }
+      },
+      "description": "Richmond"
+     },
+     {
+      "id": 16,
+      "name": "TMP",
+      "title": "TMP",
+      "type": "2d",
+      "imgParam": {},
+      "imagePosition": "FILL",
+      "extent": {
+       "spatialReference": {
+        "wkid": 102100
+       },
+       "xmin": -10839959.3073209,
+       "ymin": 3636022.9219776,
+       "xmax": -10832139.1687524,
+       "ymax": 3648810.48677894
+      },
+      "graphics": [],
+      "showFlag": true,
+      "mapDataSourceId": null,
+      "viewpoint": {
+       "rotation": 0,
+       "targetGeometry": {
+        "spatialReference": {
+         "wkid": 102100
+        },
+        "xmin": -10839959.3073209,
+        "ymin": 3636022.9219776,
+        "xmax": -10832139.1687524,
+        "ymax": 3648810.48677894
+       }
+      },
+      "description": "Temple"
+     }
+    ],
+    "autoPlayAllow": false,
+    "direction": "HORIZON",
+    "pageStyle": "SCROLL",
+    "space": 4,
+    "displayFromWeb": false,
+    "ignoreLayerVisibility": true,
+    "displayType": "ALL",
+    "itemWidth": 44,
+    "itemHeight": 40,
+    "scrollBarOpen": false,
+    "navigatorOpen": false,
+    "hideIcon": true,
+    "itemSizeType": "CUSTOM",
+    "galleryItemWidth": 46,
+    "galleryItemHeight": 42,
+    "galleryItemSpace": 4,
+    "displayName": true
+   },
+   "useMapWidgetIds": [
+    "widget_1"
+   ]
+  }
+ },
+ "widgetsManifest": {},
+ "attributes": {
+  "portalUrl": "https://wrienviro.maps.arcgis.com"
+ },
+ "header": {
+  "layout": {
+   "LARGE": "layout_hdr",
+   "MEDIUM": "layout_hdr",
+   "SMALL": "layout_hdr"
+  },
+  "height": {
+   "LARGE": 67,
+   "SMALL": 56
+  },
+  "backgroundColor": "#1f1f1f",
+  "textColor": "#fff"
+ },
+ "sharedThemeVariables": {},
+ "timestamp": 1783826097789
+}
